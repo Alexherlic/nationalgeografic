@@ -1,0 +1,383 @@
+<!DOTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales</title>
+    <div class="contenedor">
+        <table border="1" align="center" width="80%" >
+            <tr align="center">
+                <td class="ancho-celda">
+                    <div class="menu-toggle">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </td>
+                <td style=" width: 120px;"><a href="index.html" style="text-decoration:none; color:black;">
+                    <img src="images_Animales/logo-nationalgeaografic.svg" alt="" style="height: 50px;" ></a>
+                </td>
+                <td style=" width: 50px;">
+                    <a class="link_overlay" href="animales.html" style="text-decoration:none; color:black;">ANIMALES</a>
+                </td>
+                <td style=" width: 110px;">
+                    <a class="link_overlay" href="medio_ambiente.html" style="text-decoration:none; color:black;">MEDIO AMBIENTE</a>
+                </td>
+                <td style=" width: 70px;">
+                    <a class="link_overlay" href="ciencia.html" style="text-decoration:none; color:black;">CIENCIA</a>
+                </td>
+                <td class="cell" style="width:95px;"><span class="dot"></span>
+                    <a class="link_overlay" href="historia.html" style="text-decoration:none; color:black;">HISTORIA</a>
+                </td>
+                <td class="cell" style="width:80px;"><span class="dot"></span>
+                    <a class="link_overlay" href="viajes.html" style="text-decoration:none; color:black;">VIAJES</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</head>
+<style>
+    body{
+        background: black;
+    }
+
+    table {
+        border: none;
+    }
+    .ancho-celda {
+        width: 50px; /* Ancho de la celda en píxeles */
+    }
+    
+    td{
+        border: none;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    .menu-toggle {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+    .cell {
+        padding-left: 0px; /* Espacio para el punto */
+        position: relative;
+        align-items: center;
+    }
+    
+    .dot {
+        width: 5px;
+        height: 5px;
+        background-color: yellow;
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 0px;
+    }
+
+    /*estilos del cuerpoo de la pagina*/
+    .table2 {
+        background: white;
+        height: 100vh; /* Ajusta la altura según sea necesario */
+        border-collapse: collapse;
+        justify-content: center; 
+    }
+    .contenedor{
+        background: white;
+        height: 70px;
+        
+    }
+    td {
+        padding: 0;
+    }
+    
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        background-color: transparent; /* Fondo semi-transparente para resaltar el texto */
+        padding: 20px; /* Espaciado alrededor del texto */
+        border-radius: 5px; /* Bordes redondeados */
+        text-align: left;
+    }
+    
+    .link-overlay {
+        color: white;
+        font-size: 60px; /* Tamaño del texto */
+        text-decoration: none;
+    }
+    .link-overlay:hover {
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 1.5px;
+    }
+    .link_overlay{
+        color: black;
+        text-decoration: none;
+    }
+    .link_overlay:hover {
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 1px;
+    }
+    img {
+        display: block;
+        max-width: 90%;
+        height: auto;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+    }
+    .linkoverlay{
+        color: black;
+        text-decoration: none;
+    }
+    .linkoverlay:hover{
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 1.5px;
+    }
+</style><br><br>
+<body>
+    <table width="80%" class="table2" align="center" >
+        
+        <tr align="center">
+            
+            <td><p align="left" style="font-size: 50px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:black;">CIENCIA</p><br>
+                <div class="image-container" align="center">
+                    <img src="imagenes_ciencia/vostok-1-with-yuri-gagarin.jpg" alt="Imagen">
+                    <div class="overlay">
+                        <a href="https://www.nationalgeographic.com.es/ciencia/vostok-i-asi-fue-primer-vuelo-espacial-tripulado_21988s" class="link-overlay"><b>Vostok I: el primer vuelo espacial tripulado que llevó a Yuri Gagarin fuera de la Tierra</b></a>
+                        <p><br>
+                            <br><br>La mañana del 12 de abril de 1961, la Unión Soviética lanzó al primer ser humano al espacio en una misión conocida como Vostok I.</p>
+                    </div>
+                </div><br><br><br><br><br><br><br>
+            </td>
+        </tr>
+    </table>
+
+    <table width="80%" bgcolor="white" align="center" style=" border-spacing:40px">
+        <tr>
+            <td rowspan="3" width="150" height="500px" style="background:url(imagenes_ciencia/islandia-erupcion-volcan.jpg); background-size:800px; background-repeat:no-repeat; background-position:top"  ><div style=" position: absolute;
+                width: 260.9px;
+                top:236%;
+                left: 24.6%;
+                transform: translate(-50%, -50%);
+                background-color: black; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;">
+                <a class="linkoverlay" href="https://www.nationalgeographic.com.es/ciencia/por-que-hay-tantos-volcanes-islandia_19318"><h1 style="color: white;">¿Por qué hay tantos volcanes en Islandia?</h1>
+                </a>
+                <p>En esta tierra de hielo y fuego del norte de Europa, el frío glacial y el calor del interior de la Tierra se dan la mano para crear algunos de los paisajes más impresionantes del planeta.</p>
+                </div></td>
+            <td width="50" height="270px" style="background:url(imagenes_ciencia/dial-de-vacunacion.jpg); background-size:110px; background-repeat:no-repeat; left:0%; top:0%;"  >
+                
+            </td>
+            <td rowspan="1" style="text-align:left; left:0%; top:0%;"><div style="
+                position: absolute;
+                width: 250px;
+                top:164%;
+                left: 59%;
+                transform: translate(-50%, -50%);
+                background-color: white; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;"><a class="link_overlay" href= "https://www.nationalgeographic.com.es/ciencia/andrew-wakefield-infame-padre-movimiento-antivacunas_20262" ><h3 style="color: black;">Andrew Wakefield, la controvertida historia del padre del movimiento antivacunas</h3></a><p style="color: gray;">Un estudio cuyo autor principal era el médico británico estableció la base para una nueva oleada de rechazo hacia la vacunación con consecuencias cada vez más evidentes, como el rebrote de enfermedades casi erradicadas.</p></div></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td width="50" height="240px" style="background:url(imagenes_ciencia/nieve-rosa_.webp); background-size:110px; background-repeat:no-repeat; left:0%; top:0%;"></td>
+            <td ><div style="
+                position: absolute;
+                width: 250px;
+                top:215%;
+                left: 59%;
+                transform: translate(-50%, -50%);
+                background-color: white; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;"><a class="link_overlay" href= "https://www.nationalgeographic.com.es/ciencia/la-nieve-rosa-un-fenomeno-bonito-pero-peligroso-para-medio-ambiente_19444" ><h3 style="color: black;">La nieve rosa: un fenómeno bonito pero peligroso para el medio ambiente
+                </h3></a><p style="color: gray;">La causante de esta coloración es la microalga 'Chlamydomonas nivalis', la cual tiñe la nieve de rojo y hace que se derrita más rápido.</p></div></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td width="50" height="400" style="background:url(imagenes_ciencia/magnetosfera.jpg); background-size:110px; background-repeat:no-repeat; left:0%; top:0%;"></td>
+            <td><div style="
+                position: absolute;
+                width: 250px;
+                top:260%;
+                left: 59%;
+                transform: translate(-50%, -50%);
+                background-color: white; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;"><a class="link_overlay" href= "https://www.nationalgeographic.com.es/ciencia/asi-suena-escalofriante-melodia-genera-el-campo-magnetico-terrestre_19415" ><h3 style="color: black;">Así suena la escalofriante melodía del campo magnético terrestre</h3></a><p style="color: gray;">Un equipo de científicos de Dinamarca ha convertido en sonido las señales magnéticas terrestres captadas por la misión Swarm de la Agencia Espacial Europea, y el resultado es bastante desconcertante.</p></div></td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="300" height="300" style="background:url(imagenes_ciencia/macaco.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+            <td rowspan="3" width="300" height="300" style="background:url(imagenes_ciencia/enana-blanca.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+            <td rowspan="3" width="300" height="300" style="background:url(imagenes_ciencia/higgs.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <!-- <td>5</td> -->
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+            <!-- <td>7</td> -->
+            <!-- <td>8</td> -->
+            <!-- <td>9</td> -->
+        </tr>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/que-es-virus-b-como-se-contagia-y-cuales-son-sus-sintomas_22023"><h3>¿Qué es el virus B? La extraña enfermedad que se transmite por el contacto con monos</h3></a></td>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/como-se-vera-nuestro-sistema-solar-dentro-cinco-mil-millones-anos_22020"><h3>Cómo se verá nuestro sistema solar dentro de cinco mil millones de años</h3></a></td>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/boson-higgs-particula-dios-que-tardo-medio-siglo-ser-observada_22019"><h3>El Bosón de Higgs, la "partícula de Dios" que tardó medio siglo en ser observada</h3></a></td>        </tr>
+          <tr>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/triceratops-manadas.jpg); background-size:cover; background-repeat:repeat; background-position:right" ><a class="link_overlay" href="https://www.nationalgeographic.com.es/mundo-animal/border-collie-ya-no-lidera-la-lista-cual-es-raza-perro-mas-inteligente_19564" style="display: block;"></a></td>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/etna.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/peter-higgs.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <!-- <td>5</td> -->
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+            <!-- <td>7</td> -->
+            <!-- <td>8</td> -->
+            <!-- <td>9</td> -->
+        </tr>
+        <tr>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/hallazgo-que-demuestra-que-triceratops-vivian-manadas_22014"> <h3>El hallazgo que demuestra que los Triceratops vivían en manadas</h3></a></td>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/etna-esta-expulsando-espectaculares-anillos-humo-cielo-y-no-es-primera-vez_22017"><h3>El Etna está expulsando espectaculares anillos de humo al cielo... y no es la primera vez</h3></a></td>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/peter-higgs-nobel-que-descubrio-existencia-particula-dios_22012"> <h3>Peter Higgs, el Nobel que descubrió la existencia de la 'partícula de Dios'</h3></a></td>
+        </tr>
+    <tr>
+      <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/paleo.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+      <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/gauss.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+      <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/feto.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+  </tr>
+  <tr>
+      <!-- <td>4</td> -->
+      <!-- <td>5</td> -->
+      <!-- <td>6</td> -->
+  </tr>
+  <tr>
+      <!-- <td>7</td> -->
+      <!-- <td>8</td> -->
+      <!-- <td>9</td> -->
+  </tr>
+  <tr>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/dieta-paleolitico-que-es-y-que-dice-ciencia-sobre-ella_22008"><h3> Dieta del Paleolítico, ¿qué es y qué dice la ciencia sobre ella?</h3></a></td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/carl-friedrich-gauss_21953"><h3>Carl Friedrich Gauss, el príncipe de las matemáticas</h3></a> </td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/cada-embarazo-acelera-envejecimiento-biologico-mujeres_22002"><h3> El embarazo acelera el envejecimiento biológico en mujeres jóvenes y sanas</h3></a></td>
+  </tr>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/robot-paro-contacto-fisico.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/eclipse-solar-eeuu.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/cancer.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+</tr>
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+<tr>
+    <!-- <td>7</td> -->
+    <!-- <td>8</td> -->
+    <!-- <td>9</td> -->
+</tr>
+<tr>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/contacto-fisico-incluso-robot-mejora-nuestra-salud-fisica-y-mental_22003"><h3>El contacto físico (incluso con un robot) mejora nuestra salud física y mental</h3></a></td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/cuando-sera-proximo-eclipse_22004"><h3>¿Cuándo será el próximo eclipse?</h3></a> </td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/personas-nacidas-despues-1965-tienen-mayor-probabilidad-experimentar-envejecimiento-acelerado_22001"><h3>El envejecimiento biológico podría estar detrás del aumento del cáncer en jóvenes</h3></a></td>
+</tr>
+<tr>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/edificio-y-arbol.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/cueva-del-arco-murcia.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/eclipse-map-2024-nocity2.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+</tr>
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+
+<tr>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/dioxido-carbono-mas-alla-efecto-invernadero-5-aplicaciones-que-quizas-desconozcas_21943"><h3>El dióxido de carbono más allá del efecto invernadero: las 5 aplicaciones que tal vez no conocías</h3></a></td>
+        <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/quienes-fueron-realmente-neandertales-y-cual-fue-su-legado_21995"><h3>Quiénes fueron realmente los neandertales y cuál fue su legado</h3></a> </td>
+        <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/descubre-recorrido-exacto-eclipse-solar-abril-este-mapa-nasa_21954"><h3>Descubre el recorrido exacto del eclipse solar de abril con este mapa de la NASA</h3></a></td>
+</tr>
+
+<tr>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/nasa-cohetes-eclipse.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/97409121-eclipse-prueba40404230639_1280x720.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/senales-de-galaxias-lejanas.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+</tr>
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+
+<tr>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/por-que-nasa-lanzara-cohetes-a-sombra-luna-durante-eclipse_21989"><h3>¿Por qué la NASA lanzará cohetes a la sombra de la Luna durante el eclipse?</h3></a></td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/eclipse-1919-que-confirmo-teoria-relatividad-einstein_21978"><h3>El eclipse de 1919 que confirmó la Teoría de la Relatividad de Einstein</h3></a> </td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/hay-alguien-ahi-fuera-busqueda-vida-inteligente-otros-planetas-mas-alla-problema-tres-cuerpos_21951"><h3> ¿Hay alguien ahí fuera? La búsqueda de vida inteligente en otros planetas más allá del “Problema de los Tres Cuerpos”</h3></a></td>
+</tr>
+
+<tr>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/dormir.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/gimnasio.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+    <td rowspan="3" width="290" height="290" style="background:url(imagenes_ciencia/intuitive-machines.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+</tr>
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+
+<tr>
+    <!-- <td>4</td> -->
+    <!-- <td>5</td> -->
+    <!-- <td>6</td> -->
+</tr>
+
+<tr>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/nuevo-estudio-cuatro-formas-dormir-y-sus-posibles-consecuencias-para-salud_21984"><h3>Las cuatro formas de dormir: ¿cuáles son sus posibles consecuencias para la salud?</h3></a></td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/confirmado-por-aristoteles-entreno-gimnasio-menos-es-mas_21980"><h3>Confirmado por Aristóteles: en el entrenamiento de gimnasio, menos es más</h3></a> </td>
+    <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/ciencia/asi-seran-nuevos-vehiculos-exploradores-que-conduciran-futuros-astronautas-luna_21983"><h3>La NASA quiere estrenar vehículos exploradores para los próximos viajes a la Luna</h3></a></td>
+</tr>
+
+</table>
+    
+</body>
+</html>

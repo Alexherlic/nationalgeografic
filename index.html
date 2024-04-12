@@ -1,0 +1,652 @@
+<!DOTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales</title>
+    <div class="contenedor">
+        <table border="1" align="center" width="80%" >
+            <tr align="center">
+                <td class="ancho-celda">
+                    <div class="menu-toggle">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </td>
+                <td style=" width: 120px;"><a href="index.html" style="text-decoration:none; color:black;">
+                    <img src="images_Animales/logo-nationalgeaografic.svg" alt="" style="height: 50px;" ></a>
+                </td>
+                <td style=" width: 50px;">
+                    <a class="link_overlay" href="animales.html" style="text-decoration:none; color:black;">ANIMALES</a>
+                </td>
+                <td style=" width: 110px;">
+                    <a class="link_overlay" href="medio_ambiente.html" style="text-decoration:none; color:black;">MEDIO AMBIENTE</a>
+                </td>
+                <td style=" width: 70px;">
+                    <a class="link_overlay" href="ciencia.html" style="text-decoration:none; color:black;">CIENCIA</a>
+                </td>
+                <td class="cell" style="width:95px;"><span class="dot"></span>
+                    <a class="link_overlay" href="historia.html" style="text-decoration:none; color:black;">HISTORIA</a>
+                </td>
+                <td class="cell" style="width:80px;"><span class="dot"></span>
+                    <a class="link_overlay" href="viajes.html" style="text-decoration:none; color:black;">VIAJES</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</head>
+<style>
+    body{
+        background: black;
+    }
+
+    table {
+        border: none;
+    }
+    .ancho-celda {
+        width: 50px; /* Ancho de la celda en píxeles */
+    }
+    
+    td{
+        border: none;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    .menu-toggle {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+    .cell {
+        padding-left: 0px; /* Espacio para el punto */
+        position: relative;
+        align-items: center;
+    }
+    
+    .dot {
+        width: 5px;
+        height: 5px;
+        background-color: yellow;
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 0px;
+    }
+
+    /*estilos del cuerpoo de la pagina*/
+    .table2 {
+        width:80%; 
+        background:white; 
+        
+    }
+    .contenedor{
+        background: white;
+        height: 70px;
+        
+    }
+    td {
+        padding: 0;
+    }
+    
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        background-color: transparent; /* Fondo semi-transparente para resaltar el texto */
+        padding: 20px; /* Espaciado alrededor del texto */
+        border-radius: 5px; /* Bordes redondeados */
+        text-align: left;
+    }
+    
+    .link-overlay {
+        color: white;
+        font-size: 70px; /* Tamaño del texto */
+        text-decoration: none;
+    }
+    .link-overlay:hover {
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 2px;
+    }
+    
+    img {
+        display: block;
+        max-width: 90%;
+        height: auto;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+    }
+    .link_overlay{
+        color: black;
+        text-decoration: none;
+    }
+    .link_overlay:hover {
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 1px;
+    }
+    img {
+        display: block;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .linkoverlay{
+        color: black;
+        text-decoration: none;
+    }
+    .linkoverlay:hover{
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 1px;
+    }
+    .subraye{
+        color: black;
+        text-decoration: none;
+        text-align: left;
+        width: 80%;
+    }
+    .subraye:hover{
+        text-decoration: underline; /* Subrayar al hacer hover */
+        text-decoration-color: #FECE00;
+        text-decoration-thickness: 1.5px;
+    }
+</style><br><br>
+<body>
+    <table class="table2" align="center">
+        <tr align="center">
+            <td>
+                <div width="90%" class="image-container" align="center">
+                    <img src="images_Animales/ballena.jpg" alt="Imagen" >
+                    <div class="overlay">
+                        <a href="https://www.nationalgeographic.com.es/ciencia/se-observa-especie-ballena-que-se-creia-extinguida-atlantico-hace-200-anos_21791" class="link-overlay"><b>Avistan una especie de ballena que se creía extinta en el Atlántico hace 200 años</b></a>
+                        <p>La especie desapareció del Océano Atlántico en el siglo XVIII, pero en los últimos 15 años ha habido cinco observaciones de ballenas grises en estas aguas. ¿Cuál es la razón de los avistamientos?<br>
+                            <br><br>Actualizado a 08 de marzo de 2024, 13:20</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table width="80%" bgcolor="white" align="center" style=" border-spacing:40px">
+        <tr>
+            <td rowspan="3" width="302px" height="900" style="background:url(imagenes_index/avemadriguera.jpg); background-size:800px; background-repeat:no-repeat; background-position:top"  ><div style=" position: absolute;
+                width: 260.9px;
+                height: 400px;
+                top:236%;
+                left: 24.6%;
+                transform: translate(-50%, -50%);
+                background-color: black; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;">
+                <a class="linkoverlay" href="https://www.nationalgeographic.com.es/mundo-animal/mariposa-arlequin-emblema-alado-peninsula-iberica_19412"><h1 style="color: white;">Ave de madriguera</h1>
+                </a>
+                <p>Aunque pasan la mayor parte del año en el mar, estas aves optan por vivir en madrigueras cuando llegan a tierra.</p>
+                </div></td>
+            <td width="100px" height="270px" style="background:url(imagenes_index/arbolcentenario.jpg); background-size:160px; background-repeat:no-repeat; left:0%; top:0%; position: left;"  >
+                
+            </td>
+            <td rowspan="1" style="text-align:left; left:0%; top:0%;"><div style="
+                position: absolute;
+                width: 250px;
+                top:146%;
+                left: 59%;
+                transform: translate(-50%, -50%);
+                background-color: white; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;"><a class="link_overlay" href= "https://www.nationalgeographic.com.es/mundo-animal/pensaras-que-los-tigres-son-felinos-pero-no-lo-son_19239" ><h3 style="color: black;">Pensarás que los tigres son felinos… Pero no lo son</h3></a><p style="color: gray;">El término “felino” tiene un significado diferente en el lenguaje común del que tiene en la ciencia. Te explicamos por qué los tigres no se clasifican como tal, al contrario de lo que se suele pensar.</p></div></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td width="50" height="240px" style="background:url(imagenes_index/neuronas.png); background-size:160px; background-repeat:no-repeat; left:0%; top:0%;"></td>
+            <td ><div style="
+                position: absolute;
+                width: 250px;
+                top:191%;
+                left: 59%;
+                transform: translate(-50%, -50%);
+                background-color: white; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;"><a class="link_overlay" href= "https://www.nationalgeographic.com.es/mundo-animal/pensaras-que-los-tigres-son-felinos-pero-no-lo-son_19239" ><h3 style="color: black;">El gato doméstico en libertad supone un problema para la biodiversidad
+                </h3></a><p style="color: gray;">Más allá del tranquilo, elegante e independiente animal con el que muchos compartimos nuestras vidas, el gato doméstico es mucho más que un animal de compañía.</p></div></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td width="50" height="400" style="background:url(imagenes_index/particulasdeluniverso.jpg); background-size:160px; background-repeat:no-repeat; left:0%; top:0%;"></td>
+            <td><div style="
+                position: absolute;
+                width: 250px;
+                top:230%;
+                left: 59%;
+                transform: translate(-50%, -50%);
+                background-color: white; /* Fondo semi-transparente para resaltar el texto */
+                padding: 20px; /* Espaciado alrededor del texto */
+                border-radius: 0px; /* Bordes redondeados */
+                text-align: left;"><a class="link_overlay" href= "https://www.nationalgeographic.com.es/mundo-animal/pensaras-que-los-tigres-son-felinos-pero-no-lo-son_19239" ><h3 style="color: black;">Así ven el mundo los perros</h3></a><p style="color: gray;">Los canes ven menos colores, pero su visión nocturna es mejor; y aunque ven a distancias más cortas, son capaces de distinguir cosas en movimiento con más facilidad.</p></div></td>
+        </tr>
+        
+    </table>
+    <table  width="80%" bgcolor="white" align="center" style=" padding:10px;">
+        
+        <tr align="center">
+            <td  width="90%"><h1 style="color: black; text-align:left;">ANIMALES</h1>
+                <a class="subraye" href="https://www.nationalgeographic.com.es/ciencia/darwin-estaba-equivocado-machos-mamiferos-no-son-mas-grandes-que-hembras_21848"><img src="imagenes_index/gacelas.jpg" alt="">
+                <h1>Darwin estaba equivocado: no todos los mamíferos machos son más grandes que las hembras</h1>
+                </a>
+                <p style="color: black; text-align:left;">Una nueva investigación desafía las teorías tradicionales sobre el dimorfismo sexual en mamíferos: solo el 45% presenta machos más grandes que las hembras.</p>
+                
+            </td>
+        </tr>
+    </table>
+    <table width="80%" bgcolor="white" align="center" style=" border-spacing:30px">
+        <tr>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/anfibio.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/tigreenpeligro.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/perromutante.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <!-- <td>5</td> -->
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <!-- <td>5</td> -->
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+             
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/mundo-animal/este-anfibio-alimenta-a-sus-crias-sustancia-parecida-a-leche_21829">
+                <h2 style="color: black;">Este anfibio alimenta a sus crías con una sustancia parecida a la leche</h2></a>
+                <p style="color: gray;">Una nueva investigación desvela que las cecilias, unos extraños anfibios similares a lombrices, secretan un líquido nutritivo similar a la leche de un modo análogo a lo que hacen los mamíferos, pero por un conducto muy distinto.</p>
+            </td>
+            
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/mundo-animal/esta-revolucionaria-herramienta-nasa-y-google-sirve-para-monitorizar-y-proteger-a-tigres-que-quedan-mundo_21748">
+                <h2 style="color: black;">Esta revolucionaria herramienta de la NASA y Google sirve para proteger a los tigres que quedan en el mundo</h2></a>
+                <p style="color: gray;">TCL 3.0 no solo se limita a la conservación de los tigres, sino que también puede aplicarse a otras especies en peligro.</p>
+            </td>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/mundo-animal/descubren-mutacion-que-predispone-a-obesidad-ciertas-razas-perros_21812">
+                <h2 style="color: black;">Descubren una mutación que predispone a la obesidad en ciertas razas de perros</h2></a>
+                <p style="color: gray;">Ciertas razas de perros retriever tienen una predisposición a la obesidad a causa de una mutación genética que les hace tener más hambre y quemar menos calorías.</p>
+            </td>
+           
+        </tr>
+    </table>
+    <table width="80%" bgcolor="white" align="center" style=" border-spacing:30px">
+    <tr> 
+    <td style="    
+    width: 100px;
+    height: 130px;
+    border-radius: 100%; 
+    overflow: hidden;
+    text-align: center;">
+    <img src="imagenes_index/felinos.jpg" alt="" style="
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;">
+     </td>
+
+     <td style="    
+     width: 100px;
+    height: 130px;
+    border-radius: 100%; 
+    overflow: hidden;
+    text-align: center;">
+    <img src="imagenes_index/elefante.jpg" alt="" style="
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;">
+      </td>
+
+      <td style="    
+      width: 100px;
+      height: 130px;
+      border-radius: 100%; 
+      overflow: hidden;
+      text-align: center;">
+      <img src="imagenes_index/pulpos.jpg" alt="" style="
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 100%;">
+       </td>
+
+       <td style="    
+       width: 100px;
+       height: 130px;
+       border-radius: 100%; 
+       overflow: hidden;
+       text-align: center;">
+       <img src="imagenes_index/koalas.jpg" alt="" style="
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       border-radius: 100%;">
+        </td>
+
+        <td style="    
+        width: 100px;
+        height: 130px;
+        border-radius: 100%; 
+        overflow: hidden;
+        text-align: center;">
+        <img src="imagenes_index/pinguinos.jpg" alt="" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;">
+         </td>
+
+         <td style="    
+         width: 100px;
+         height: 130px;
+         border-radius: 100%; 
+         overflow: hidden;
+         text-align: center;">
+         <img src="imagenes_index/leones.jpg" alt="" style="
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         border-radius: 100%;">
+          </td>
+        </tr>
+          <tr>
+            <td align="center"><a class="linkoverlay" href=""><h2>Felinos</h2></a></td>
+            <td align="center"><a class="linkoverlay" href=""><h2>Elefantes</h2></a></td>
+            <td align="center"><a class="linkoverlay" href=""><h2>Pulpos</h2></a></td>
+            <td align="center"><a class="linkoverlay" href=""><h2>Koalas</h2></a></td>
+            <td align="center"><a class="linkoverlay" href=""><h2>Pinguinos</h2></a></td>
+            <td align="center"><a class="linkoverlay" href=""><h2>Leones</h2></a></td>
+          </tr>
+
+    </table>
+    <table  width="80%" bgcolor="white" align="center" style="border-spacing:30px;">
+        <tr><td><h1 style="color: black; text-align:left;">MEDIO AMBIENTE</h1></td></tr>
+        <tr>
+            <td width="1000px" height="600px" style="background:url(imagenes_index/PUENTE.jpg); background-size:cover; background-repeat:no-repeat; background-position:center">
+            </td>
+           
+        </tr>
+        <tr> 
+            <td> <a class="subraye" href="https://www.nationalge ographic.com.es/medio-ambiente/celebrando-dia-mundial-agua-2024-recurso-precioso-y-compartido_21804"><h1>Celebrando el Día Mundial del Agua 2024: Cada gota cuenta</h1>
+                </a>
+                <p style="color: black; text-align:center;">El viernes 22 de marzo será una buena oportunidad para hacer conciencia y ejercer una acción global en torno a la gestión del agua.</p>
+            </td>
+        </tr>
+    </table>
+    <table width="80%" bgcolor="white" align="center" style=" border-spacing:30px">
+        <tr>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/volcanpopocatepeltl.jpg); background-size:cover; background-repeat:no-repeat; background-position:right" ></td>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/tsunamis.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+            <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/tsunamisqueson.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <!-- <td>5</td> -->
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <!-- <td>5</td> -->
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+             
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/medio-ambiente/todo-que-debes-saber-sobre-volcan-popocatepelt_19953">
+                <h2 style="color: black;">Así es el Popocatépetl, el volcán más peligroso de México</h2></a>
+                <p style="color: gray;">Repasamos algunos de los aspectos más importantes sobre el volcán Popocatépetl, que desde el sábado muestra una intensa actividad que mantiene en vilo a las autoridades y población mexicana.</p>
+            </td>
+            
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/medio-ambiente/tsunamis-en-espana-es-posible-que-se-produzca-uno_19079">
+                <h2 style="color: black;">Tsunamis: ¿es posible que se produzca uno en España?</h2></a>
+                <p style="color: gray;">Aunque no demasiado frecuentes, existen registros de grandes tsunamis que en el pasado han azotado la península Ibérica pero, ¿podría un tsunami alcanzar nuestro país? ¿Cuáles son las probabilidades y cuáles los lugares más susceptibles de sufrir un tsunami en España?</p>
+            </td>
+            <td align="center"><a class="link_overlay" href="https://www.nationalgeographic.com.es/medio-ambiente/tsunamis-que-son-como-se-forman_19050">
+                <h2 style="color: black;">Tsunamis: qué son y cómo se producen</h2></a>
+                <p style="color: gray;">¿Qué es un tsunami? ¿Cómo se forma y cuál es su capacidad destructiva? ¿Es posible predecirlos y medirlos? Respondemos a todas estas cuestiones sobre los temidos tsunamis.</p>
+            </td>
+           
+        </tr>
+    </table>
+    <table width="80%" bgcolor="white" align="center" style=" border-spacing:30px">
+        <tr> 
+        <td style="    
+        width: 100px;
+        height: 130px;
+        border-radius: 100%; 
+        overflow: hidden;
+        text-align: center;">
+        <img src="imagenes_index/sistemasolar.jpeg" alt="" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;">
+         </td>
+    
+         <td style="    
+         width: 100px;
+        height: 130px;
+        border-radius: 100%; 
+        overflow: hidden;
+        text-align: center;">
+        <img src="imagenes_index/animalesenpeligrodeextincion.jpg" alt="" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;">
+          </td>
+    
+          <td style="    
+          width: 100px;
+          height: 130px;
+          border-radius: 100%; 
+          overflow: hidden;
+          text-align: center;">
+          <img src="imagenes_index/volcanes.jpg" alt="" style="
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 100%;">
+           </td>
+    
+           <td style="    
+           width: 100px;
+           height: 130px;
+           border-radius: 100%; 
+           overflow: hidden;
+           text-align: center;">
+           <img src="imagenes_index/energiasrenovables.jpg" alt="" style="
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           border-radius: 100%;">
+            </td>
+    
+            <td style="    
+            width: 100px;
+            height: 130px;
+            border-radius: 100%; 
+            overflow: hidden;
+            text-align: center;">
+            <img src="imagenes_index/tablaperiodica.jpg" alt="" style="
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100%;">
+             </td>
+    
+             <td style="    
+             width: 100px;
+             height: 130px;
+             border-radius: 100%; 
+             overflow: hidden;
+             text-align: center;">
+             <img src="imagenes_index/planetas.jpg" alt="" style="
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+             border-radius: 100%;">
+              </td>
+            </tr>
+              <tr>
+                <td align="center"><a class="linkoverlay" href=""><h2>Sistema Solar</h2></a></td>
+                <td align="center"><a class="linkoverlay" href=""><h2>Animales en Peligro de Extincion</h2></a></td>
+                <td align="center"><a class="linkoverlay" href=""><h2>Volcanes</h2></a></td>
+                <td align="center"><a class="linkoverlay" href=""><h2>Energias Renovables</h2></a></td>
+                <td align="center"><a class="linkoverlay" href=""><h2>Tabla Periodica</h2></a></td>
+                <td align="center"><a class="linkoverlay" href=""><h2>Planetas</h2></a></td>
+              </tr>
+    
+        </table>
+        <table  width="80%" bgcolor="white" align="center" style="border-spacing:30px;">
+            <tr><td><h1 style="color: black; text-align:center;">HISTORIA</h1></td></tr>
+            <tr>
+                <td width="1000px" height="600px" style="background:url(imagenes_index/museo.jpg); background-size:cover; background-repeat:no-repeat; background-position:center">
+                </td>
+               
+            </tr>
+            <tr> 
+                <td width="50%" align="center"> <a class="subraye" href="https://historia.nationalgeographic.com.es/a/descolonizacion-llega-museos-espanoles-europeos-en-que-consiste_20869?_ga=2.207116179.1031103565.1710686281-384418536.1709299861"><h1>la descolonización está llegando a los museos españoles y europeos: ¿en qué consiste?</h1>
+                </a>
+                <p style="color: black; text-align:center;">El significado de esta palabra parece obvio, pero nada más lejos de la realidad: la descolonización no solo se refiere a la devolución de piezas a sus comunidades de origen, sino también a establecer narrativas reconciliadoras.</p>
+            </td>
+            </tr>
+        </table>
+        <table width="80%" bgcolor="white" align="center" style=" border-spacing:30px">
+            <tr>
+                <td rowspan="3" width="290" height="200" style="background:url(imagenes_index/legionromana.jpg); background-size:cover; background-repeat:no-repeat; background-position:right;" ></td>
+                <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/luterking.jpg); background-size:cover; background-repeat:no-repeat; background-position:right;"></td>
+                <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/castigoslegionromana.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+            </tr>
+            <tr>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+            </tr>
+            <tr>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+            </tr>
+            <tr>
+                
+                <td align="center"><a class="link_overlay" href="https://historia.nationalgeographic.com.es/a/legiones-defensa-britania_21031?_ga=2.236691201.1031103565.1710686281-384418536.1709299861">
+                    <h2 style="color: black;">legiones romanas: la defensa de britania</h2></a>
+                    <p style="color: gray;">Durante cuatro siglos, miles de legionarios defendieron la frontera más remota del Imperio, hasta que, tras las grandes invasiones bárbaras, Britania quedó abandonada a su suerte.</p>
+                </td>
+                
+                <td align="center"><a class="link_overlay" href="https://historia.nationalgeographic.com.es/a/viaje-por-discursos-que-conmovieron-a-humanidad_21029?_ga=2.215528471.1031103565.1710686281-384418536.1709299861">
+                    <h2 style="color: black;">“tengo un sueño” de martin luther king y otros discursos que conmovieron a la humanidad</h2></a>
+                    <p style="color: gray;">La historia de la humanidad ha registrado grandes discursos influenciadores de las masas que tuvieron la oportunidad de presenciarlos. Estos son algunos de ellos.</p>
+                </td>
+                <td align="center"><a class="link_overlay" href="https://historia.nationalgeographic.com.es/a/decimatio-castigo-cobardes-legiones-romanas_16902?_ga=2.203651984.1031103565.1710686281-384418536.1709299861">
+                    <h2 style="color: black;">la decimatio, el castigo a los cobardes en las legiones romanas</h2></a>
+                    <p style="color: gray;">Concebida como un cruel y despiadado castigo a los legionarios que desertaban o huían en pleno combate, la decimatio fue usada en contadas ocasiones para castigar a las tropas.</p>
+                </td>
+            
+            </tr>
+        </table>
+        <table  width="80%" bgcolor="white" align="center" style="border-spacing:30px;">
+            <tr><td><h1 style="color: black; text-align:center;">VIAJES</h1></td></tr>
+            <tr>
+                <td width="1000px" height="600px" style="background:url(imagenes_index/grancanaria.jpg); background-size:cover; background-repeat:no-repeat; background-position:center">
+                </td>
+               
+            </tr>
+            <tr> 
+                <td width="50%" align="center"> <a class="subraye" href="https://viajes.nationalgeographic.com.es/a/pueblo-gran-canaria-donde-montanas-su-cocina-son-divinas_20218?_ga=2.174739490.1031103565.1710686281-384418536.1709299861"><h1>EL PUEBLO DE GRAN CANARIA DONDE LAS MONTAÑAS (Y SU COCINA) SON DIVINAS</h1>
+                </a>
+                <p style="color: black; text-align:center;">En el centro mismo de la isla se asienta una de las localidades más bonitas de España, tanto por lo que se ve desde sus calles como por lo que se vive en ellas.</p>
+            </td>
+            </tr>
+        </table>
+        <table width="80%" bgcolor="white" align="center" style=" border-spacing:30px">
+            <tr>
+                <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/tarragona.jpg); background-size:cover; background-repeat:no-repeat; background-position:right;" ></td>
+                <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/hotelamsterdam.jpg); background-size:cover; background-repeat:no-repeat; background-position:right;"></td>
+                <td rowspan="3" width="290" height="290" style="background:url(imagenes_index/praga.jpg); background-size:cover; background-repeat:no-repeat;"></td>
+            </tr>
+            <tr>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+            </tr>
+            <tr>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+            </tr>
+            <tr>
+                
+                <td align="center"><a class="link_overlay" href="https://viajes.nationalgeographic.com.es/a/tarragona-tiene-catedrales-mas-infravaloradas-espana-no-se-merece_20216?_ga=2.236107521.1031103565.1710686281-384418536.1709299861">
+                    <h2 style="color: black;">TARRAGONA TIENE UNA DE LAS CATEDRALES MÁS INFRAVALORADAS DE ESPAÑA (Y NO SE LO MERECE)</h2></a>
+                    <p style="color: gray;">Edificada sobre las ruinas de un templo romano, es un compendio de curiosidades y leyendas fascinantes.</p>
+                </td>
+                
+                <td align="center"><a class="link_overlay" href="https://viajes.nationalgeographic.com.es/a/tivoli_20211?_ga=2.170490656.1031103565.1710686281-384418536.1709299861">
+                    <h2 style="color: black;">EL HOTEL DE ÁMSTERDAM DONDE REMBRANDT PINTÓ «LA RONDA DE NOCHE»</h2></a>
+                    <p style="color: gray;">El artista neerlandés pintó su famoso cuadro en una de las paredes del actual Hotel Tivoli Doelen, un alojamiento histórico del centro medieval de Ámsterdam.</p>
+                </td>
+                <td align="center"><a class="link_overlay" href="https://historia.nationalgeographic.com.es/a/decimatio-castigo-cobardes-legiones-romanas_16902?_ga=2.203651984.1031103565.1710686281-384418536.1709299861">
+                    <h2 style="color: black;">QUÉ VER EN PRAGA: LOS DOCE IMPRESCINDIBLES DE UN ESCENARIO QUE PARECE UN RELATO DE HADAS</h2></a>
+                    <p style="color: gray;">Concebida como un cruel y despiadado castigo a los legionarios que desertaban o huían en pleno combate, la decimatio fue usada en contadas ocasiones para castigar a las tropas.</p>
+                </td>
+            
+            </tr>
+        </table><br><br><br><br>
+
+        <table bgcolor="black" align="center">
+            <tr align="center">
+                <td  align="center">
+                    <img src="imagenes_index/ng-logo-white.svg" alt="" width="250px" height="100px">
+                </td>
+            </tr>
+        </table><br>
+        <table bgcolor="black" style="color: aliceblue;" align="center">
+            <tr align="center">
+                <td align="center"><img src="logo_rba.svg" alt="log"></td>
+            </tr>
+            <tr align="center">
+                <td align="center">Lecturas</td>
+                <td>_</td>
+                <td align="center">.Semana</td>
+                <td>_</td>
+                <td align="center">.El Mueble </td>
+                <td>_</td>
+                <td align="center">.InStyle </td>
+                <td>_</td>
+                <td align="center">.Clara </td>
+                <td>_</td>
+                <td align="center">.Cuerpomente </td>
+                <td>_</td>
+                <td align="center">.Arquitectura y Diseño </td>
+                <td>_</td>
+                <td align="center">.Saber Vivir</td>
+            </tr>
+        </table>
+</body>
+</html>
